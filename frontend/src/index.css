@@ -1,0 +1,20 @@
+@import '@fontsource/shantell-sans';
+:root {
+    --background-color: #f1d3db;
+    --box-color:#EAE8D1;
+    --dark-pink:#FDAAB8;
+    --font-color: #3D2217;
+    --dark-beige:#e1dfd3;
+    --font-family: 'Shantell Sans', cursive;
+  }
+  
+  body {
+    font-family: var(--font-family);
+    color: var(--font-color);
+    margin: 0;
+    padding: 0;
+    background-color:var(--background-color);
+  }
+  button{
+    font-family: var(--font-family);
+  }
