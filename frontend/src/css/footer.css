@@ -1,0 +1,26 @@
+.footer{
+    background-color: var(--dark-beige);
+    margin-top: 50px;
+   display: grid;
+    gap: 1rem;
+    width: 100vw;
+    height: 300px;
+    padding: 1.5rem;
+}
+.footer a{
+    text-decoration: none;
+    color: var(--font-color);
+}
+.footer img{
+    width: 150px;
+    height: 150px;
+}
+.quickLinks{
+   display: flex;
+   flex-direction: column;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+ }

@@ -6,6 +6,7 @@ import Menu from './Pages/Menu'
 import FQ from './Pages/FQ'
 import OrderNow from './Pages/OrderNow'
 import Navi from './Components/Navi'
+import Footer from './Components/Footer'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/fq" element={<FQ />} />
           <Route path="/ordernow" element={<OrderNow />} />
         </Routes>
+        <Footer/>
       </Router>
     </>
   )

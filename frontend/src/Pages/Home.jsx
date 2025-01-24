@@ -3,6 +3,7 @@ import { FiPhone } from 'react-icons/fi'
 import { AiFillInstagram, AiOutlineWhatsApp } from 'react-icons/ai';
 import { MdEmail } from 'react-icons/md';
 import Testimonial from '../Components/Testimonial';
+import InstagramAPI from '../Components/InstagramAPI';
 function Home() {
   return (
     <main>
@@ -62,7 +63,7 @@ function Home() {
         </div>
       </div>
       <Testimonial/>
-
+        <InstagramAPI/>
     </main>
 
   )
