@@ -1,0 +1,93 @@
+.order-now-container {
+    text-align: center;
+   
+}
+
+.order-heading {
+    font-size: 1rem;
+    color: var(--font-color);
+    margin-bottom: 20px;
+    font-weight: bold;
+    line-height: 1.4;
+    animation: fadeIn 2s forwards, slideIn 2s forwards;
+    margin-top: 30px;
+    opacity: 0;
+}
+
+.order-heading span {
+    color: var(--dark-pink);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(30px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+
+}
+
+form{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 8px;
+   margin-top: 40px;
+}
+
+form label{
+   font-weight: bolder;
+   padding: 5px 0px;
+}
+form input{
+    width: 40vw;
+    height: 40px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    color: var(--font-color);
+    background-color: var(--dark-pink);
+}
+form input::placeholder{
+    color:var(--font-color);
+}
+
+form select{
+    width: 40vw;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    color: var(--font-color);
+    background-color: var(--dark-pink);
+}
+textarea{
+    width: 50vw;
+    height: 20vh;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    color: var(--font-color);
+    background-color: var(--dark-pink);
+}
+ .order-now-container button{
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+   align-items: start;
+}

@@ -11,11 +11,27 @@
   body {
     font-family: var(--font-family);
     color: var(--font-color);
-    margin: 0;
-    padding: 0;
     background-color:var(--background-color);
     box-sizing: border-box;
+    font-size: 14px;
   }
   button{
     font-family: var(--font-family);
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  @media screen and (min-width: 768px) {
+   body{
+    font-size: 16px;
+   }
+  }
+  
+  
+  @media screen and (min-width: 1024px) {
+      body{
+        font-size: 18px;
+      }
   }

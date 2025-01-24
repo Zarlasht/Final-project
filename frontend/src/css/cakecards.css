@@ -1,0 +1,55 @@
+.cakecards {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    background-color: var(--dark-beige);
+    width: 200px;
+    height: 300px;
+  }
+  
+  .cakecards img { 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+  .cakecards p {
+    text-align: center;
+   line-break: loose;
+   margin-top: 20px;
+  }
+  
+  .cakecards button {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-size: 10px;
+    padding: 5px 5px;
+  }
+  
+
+  @media screen and (min-width: 768px) {
+    .cakecards button{
+      margin-top: 20px;
+    } 
+    .cakecards img{
+      width: 200px;
+      height: 250px;
+    }
+    .cakecards{
+      width: 200px;
+    }
+  }
+  
+ 
+  @media screen and (min-width: 1024px) {
+    .cakecards img{
+      height: 400px;
+    }
+  }

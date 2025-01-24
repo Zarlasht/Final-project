@@ -1,0 +1,59 @@
+.policies {
+    width: 80vw;
+    height: 50vh;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    line-height: 1.8;
+}
+.policies h2{
+    margin-top: 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.faq {
+    width: 80vw;
+    height: 70vh;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    line-height: 1.8;
+   
+  
+}
+.faq h2{
+    margin-top: 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+   
+}
+
+
+@media screen and (min-width: 1024px) {
+    
+}

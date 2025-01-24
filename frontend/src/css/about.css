@@ -1,0 +1,62 @@
+h2{
+    margin-top: 50px;
+}
+
+.about {
+    position: relative;
+    height: 80%; 
+    width: 100%;
+    display: flex;
+    overflow: hidden; 
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .about .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/aboutbg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px); 
+    z-index: 0; 
+  }
+  
+  .about .content {
+    position: relative; 
+    z-index: 1;
+    font-weight: bold;
+    margin-top: -20px;
+    width: 60vw;
+    
+  }
+  .bakerContainer{
+    text-align: center;
+    margin-top: 30px;
+   
+  }
+  .bakerContainer h3{
+   margin-bottom: 20px;
+   text-decoration: underline;
+   
+  }
+  .bakerContainer button{
+    margin-top: 20px;
+  }
+  .aboutPhotos{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    background-color: var(--dark-beige);
+   
+  }
+  .aboutPhotos img{
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+  }

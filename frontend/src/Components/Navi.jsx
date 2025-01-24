@@ -29,24 +29,24 @@ function Navi() {
           About
         </Link>
         <Link to="/menu" onClick={toggleMenu}>
-          Menu
+        Sweet Creations
         </Link>
         <Link to="/fq" onClick={toggleMenu}>
-          FAQ
+        Help & Info
         </Link>
       </div>
 
       <div className="navi desktop">
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
-        <Link to="/menu">Menu</Link>
-        <Link to="/fq">FAQ</Link>
+        <Link to="/menu">Sweet Creations</Link>
+        <Link to="/fq">Help & Info</Link>
       </div>
 
       <a href="/">
         <img src="../images/LOGO.png" alt="logo" />
       </a>
-      <Link to="/odernow">
+      <Link to="/ordernow">
         <button>Order Now</button>
       </Link>
     </nav>
